@@ -1,0 +1,13 @@
+.vs/
+.vscode/
+.DS_Store
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache
+.ipynb_checkpoints
+
+.DS_Store
+.idea
+
