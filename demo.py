@@ -8,7 +8,7 @@ from strtool import replace_last_occurrence
 
 if __name__ == "__main__":
 
-    file_list = [r"C:\Users\wzzha\Downloads\115download\YRMN-020.mp4", r"C:\Users\wzzha\Downloads\115download\CEMD-341.mp4", r"C:\Users\wzzha\Downloads\115download\SDMU-074.mp4"]
+    file_list = [r""]
 
 
     for f in file_list:

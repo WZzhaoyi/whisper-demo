@@ -21,5 +21,5 @@ def ffmpeg_split(input_file, start_time, end_time, output_file):
     return output
 
 if __name__ == "__main__":
-    # ffmpeg_convert_audio(r"C:\Users\wzzha\Downloads\115download\[Thz.la]yrmn-040.mp4", r"C:\Users\wzzha\Downloads\115download\[Thz.la]yrmn-040.mp3")
-    ffmpeg_split(r"C:\Users\wzzha\Downloads\115download\[Thz.la]yrmn-040.cmd.mp3", 0, 60, r"C:\Users\wzzha\Downloads\115download\[Thz.la]yrmn-040(0-60).mp3")
+    # ffmpeg_convert_audio(r"", r"")
+    ffmpeg_split(r"", 0, 60, r"")

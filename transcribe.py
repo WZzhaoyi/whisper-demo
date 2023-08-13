@@ -54,4 +54,4 @@ def transcribe_audio(audio_path, output_path=None, model="arc-r/faster-whisper-l
 
 
 if __name__ == "__main__":
-    transcribe_audio(r"C:\Users\wzzha\Downloads\115download\[Thz.la]yrmn-040(0-60).mp3", r"C:\Users\wzzha\Downloads\115download\[Thz.la]yrmn-040(0-60).mp3.vtt")
+    transcribe_audio(r"", r"")
