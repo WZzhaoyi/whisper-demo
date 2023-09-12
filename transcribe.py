@@ -1,6 +1,7 @@
 
 
 import os
+import sys
 import math
 import webvtt
 import datetime
@@ -54,4 +55,9 @@ def transcribe_audio(audio_path, output_path=None, model="arc-r/faster-whisper-l
 
 
 if __name__ == "__main__":
-    transcribe_audio(r"", r"")
+    file_path = sys.argv[1]
+    if len(sys.argv) > 2 and sys.argv[2] is not None:
+        out_path = sys.argv[2]
+    else:
+        out_path = file_path + r'.vtt'
+    transcribe_audio(file_path, out_path)
